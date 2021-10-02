@@ -1,6 +1,6 @@
 # DWOP
 
-This is an implementation of the article "Online hotel rating prediction through a dynamic weighted ordered probit model" written by Myrsini Ntemi and Constantine Kotropoulos and published in Digital Signal Processing, Elsevier, 2021.
+This is a MATLAB implementation of the article "Online hotel rating prediction through a dynamic weighted ordered probit model" written by Myrsini Ntemi and Constantine Kotropoulos and published in Digital Signal Processing, Elsevier, 2021.
 
 
 # Abstract
