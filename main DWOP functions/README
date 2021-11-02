@@ -1,0 +1,2 @@
+The main function of DWOP is main_DWOP.m. This function reads the tripadvisor dataset, constructs the data structures of user and hotel latent vectors, etc., and it saves the prediction 
+results in a file. The file paths are inserted manually. Please notice that they should be the correct ones. This function also calls the sliding_windows.m function.
