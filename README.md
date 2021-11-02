@@ -20,6 +20,7 @@ If you find this project useful, please cite:
 }
 
 The trandn.m that applies Newton-Raphson updates relies on:
+
 @article{Botev,
 author = {Botev, Z. I.},
 title = {The normal law under linear restrictions: {S}imulation and estimation via minimax tilting},
