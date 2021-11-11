@@ -8,17 +8,7 @@ Hotel reputation might volatile through time due to improvement or deterioration
 
 
 
-The trandn.m that applies Newton-Raphson updates relies on:
 
-@article{Botev,
-author = {Botev, Z. I.},
-title = {The normal law under linear restrictions: {S}imulation and estimation via minimax tilting},
-journal = {J. {R}oyal {S}tatistical {S}ociety: {S}eries {B} ({S}tatistical {M}ethodology)},
-volume = {79},
-number = {1},
-pages = {125-148},
-year = {2017}
-}
 
 # Cite
 If you find this project useful, please cite:
@@ -29,7 +19,7 @@ If you find this project useful, please cite:
   journal={Digital Signal Processing},
   volume={xxx},
   pages={xxxx},
-  year={2021xxx?},
+  year={2021},
   publisher={Elsevier}
 }
 
