@@ -3,3 +3,15 @@ results in a file. The file paths are inserted manually. Please notice that they
 of the ordered probit model and update them at every time step. The sliding_windows.m function calls DWOP_update.m which takes one event and updates the pair of approximate distributions, applies accept-reject sampling
 and Newton Raphson updates. It computes the posterior moments of latent vectors by applying Collaborative Kalman filtering and it prepares every entity for the next time step (Posteriors at t become the priors at t+1). This function also calls trandn.m
 which applies the Newton-Raphson type update to compute the optimal std. deviation of DWOP.
+
+The trandn.m that applies Newton-Raphson updates relies on:
+
+@article{Botev,
+author = {Botev, Z. I.},
+title = {The normal law under linear restrictions: {S}imulation and estimation via minimax tilting},
+journal = {J. {R}oyal {S}tatistical {S}ociety: {S}eries {B} ({S}tatistical {M}ethodology)},
+volume = {79},
+number = {1},
+pages = {125-148},
+year = {2017}
+}
